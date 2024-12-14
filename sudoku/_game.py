@@ -3,14 +3,6 @@ import math
 
 __all__ = ['Sudoku']
 
-LEVELS_RANGE = {
-    1: (3, 7),
-    2: (3, 5),
-    3: (2, 5),
-    4: (2, 4),
-    5: (1, 3),
-}
-
 class Sudoku:
     def __init__(self, matriz:Iterable[Iterable[int]]):
         self.__matriz = matriz
